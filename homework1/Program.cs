@@ -11,12 +11,22 @@ Console.WriteLine ("Введите два числа");
 int numberA = int.Parse(Console.ReadLine ());
 int numberB = int.Parse(Console.ReadLine ());
 
-if (numberA <  numberB)
+if (numberA > numberB)
 
 {
-    Console.WriteLine ("Максимальное число numberA");
+    Console.WriteLine ("Максимально число",numberA);
 }
-else
+
+if (numberB > numberA)
+
+{
+    Console.WriteLine ("Максимальное число", numberB);
+}
+
+if (numberA == numberB)
+
 {
     Console.WriteLine ("Числа равны");
+
 }
+
