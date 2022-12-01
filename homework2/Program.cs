@@ -10,7 +10,17 @@ int numberA = int.Parse(Console.ReadLine ());
 int numberB = int.Parse(Console.ReadLine ());
 int numberC = int.Parse(Console.ReadLine ());
  
- 
+ if ((numberA>numberB) && (numberA >numberC))
+ {
+    Console.WriteLine ("Максимальное значение {0}", numberA);
+ }
 
+if ((numberB>numberA) && (numberB >numberC))
+ {
+    Console.WriteLine ("Максимальное значение {0}", numberB);
+ }
 
-
+if ((numberC>numberA) && (numberC >numberB))
+ {
+    Console.WriteLine ("Максимальное значение {0}", numberC);
+ }
